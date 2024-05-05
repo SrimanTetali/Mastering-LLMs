@@ -1,4 +1,4 @@
-**Day 1\[Part 1\]: LLM Basics and Foundations**
+#Day 1\[Part 1\]: LLM Basics and Foundations#
 
 -   History and Background
 
@@ -12,7 +12,7 @@
 
 -   LLM Challenges.
 
-**History and Background:**
+##History and Background:##
 
 ![](vertopal_08f4b6f222bb46ceafcb58b1e68e86d1/media/image1.png){width="4.2871544181977255in"
 height="4.11663823272091in"}
@@ -81,7 +81,7 @@ generative AI isn\'t just because we have more data. It\'s also thanks
 to different new methods like GANs, diffusion models, and transformers,
 all adding excitement of the field.
 
-**Large Language Models (LLMs)**
+##Large Language Models (LLMs)##
 
 A large language model is an advanced type of language model that is
 trained using deep learning techniques on massive amounts of text data.
@@ -108,7 +108,7 @@ computers, we can built much larger models like ChatGPT. These LLMs,
 with billions of parameters, excel at understanding and generating
 language.
 
-**How do LLMs Work?**
+##How do LLMs Work?##
 
 LLMs work through a combination of machine learning and deep learning
 techniques. Machine learning involves training a program with large
@@ -150,7 +150,7 @@ remove biases and errors. It\'s crucial to ensure LLMs are reliable and
 don\'t produce harmful content, which can be achieved through careful
 training and monitoring.
 
-**Training LLMs**
+##Training LLMs##
 
 Training LLMs is a complex process, it involves instructing the model to
 comprehend and produce human-like text.
@@ -215,7 +215,7 @@ There are three common learning methods:
 -   **Domain Adaptation:** This is like few-shot learning, but with more
     data related to a specific application or field.
 
-**What are LLMs Used for?**
+##What are LLMs Used for?##
 
 ![](vertopal_08f4b6f222bb46ceafcb58b1e68e86d1/media/image2.png){width="6.268055555555556in"
 height="3.402083333333333in"}
@@ -275,7 +275,7 @@ information.
 questions, making summaries, and having conversations. This makes
 learning more efficient and easier for students.
 
-**LLM Challenges:**
+##LLM Challenges:##
 
 ![](vertopal_08f4b6f222bb46ceafcb58b1e68e86d1/media/image3.png){width="6.268055555555556in"
 height="3.157638888888889in"}
