@@ -12,7 +12,7 @@
 
    LLM Challenges.
 
-## **History and Background:**
+# **History and Background:**
 
 ![alt text](assets/history.png)
 
@@ -43,18 +43,14 @@ in generating human-like text by learning from extensive textual data.
 Gen AI and LLMs has transformed the AI machines to produce content like
 images, audios, videos, music and text. Gen AI models generates new
 content from the human created datasets, unlike other models that
-classify
-
-Foundation models of Gen AI are capable of multi-tasking like
+classify. Foundation models of Gen AI are capable of multi-tasking like
 summarization, Q&A and classification with minimal training and data,
 adapting to various use cases effectively. Example of such a model is
 ChatGPT.
 
 Generative AI learns through supervised learning, where it\'s fed
 human-made content with labels. By studying this data, the model gets
-good at creating similar content to training data.
-
-Generative AI is not a new idea. A classic example of early Gen AI is
+good at creating similar content to training data. Generative AI is not a new idea. A classic example of early Gen AI is
 the Markov chain, invented by Russian mathematician Andrey Markov in
 1906. These models were first used for things like predicting the next
 word in a sentence. But they were too simple to make text that sounded
@@ -63,24 +59,24 @@ real.
 The field of AI has changed over years with powerful architectures and
 large datasets.
 
-In 2014, generative adversarial networks (GANs) came about. They work
+- In 2014, generative adversarial networks (GANs) came about. They work
 with two models---one creating output and the other deciding if it\'s
 real or fake. This made generated content much more realistic, like with
 models such as StyleGAN.
 
-Then, in 2015, diffusion models showed up. They keep improving their
+- Then, in 2015, diffusion models showed up. They keep improving their
 output to make new data that looks like what they were trained on. This
 made it possible to create more realistic images, like with Stable
 Diffusion.
 
-In 2017, Google introduced transformers. These encode each word in a
+- In 2017, Google introduced transformers. These encode each word in a
 text and make a map of how they relate to each other. This helps the
 model make sense in generating text, like with ChatGPT. The boom in
 generative AI isn\'t just because we have more data. It\'s also thanks
 to different new methods like GANs, diffusion models, and transformers,
 all adding excitement of the field.
 
-## **Large Language Models (LLMs)**
+# **Large Language Models (LLMs)**
 
 A large language model is an advanced type of language model that is
 trained using deep learning techniques on massive amounts of text data.
@@ -107,7 +103,7 @@ computers, we can built much larger models like ChatGPT. These LLMs,
 with billions of parameters, excel at understanding and generating
 language.
 
-## **How do LLMs Work?**
+# **How do LLMs Work?**
 
 LLMs work through a combination of machine learning and deep learning
 techniques. Machine learning involves training a program with large
@@ -119,9 +115,7 @@ Deep learning uses probability to learn. A deep learning model cannot
 actually conclude anything from a single sentence. But after analyzing
 trillions of sentences, it could learn enough to predict how to
 logically finish an incomplete sentence, or even generate its own
-sentences.
-
-LLMs are built on neural networks, like the human brain. These networks
+sentences.LLMs are built on neural networks, like the human brain. These networks
 are made of interconnected nodes that communicate with each other. They
 have layers, including an input and output layer, and they pass
 information when their outputs reach a certain level.
@@ -152,11 +146,9 @@ training and monitoring.
 ## **Training LLMs**
 
 Training LLMs is a complex process, it involves instructing the model to
-comprehend and produce human-like text.
+comprehend and produce human-like text. Simplified steps of working of LLMs
 
-Simplified steps of working of LLMs
-
-**1.Providing Input Text:**
+## **1.Providing Input Text:**
 
 -   LLMs start by reading lots of text from books, articles, and
     websites.
@@ -166,7 +158,7 @@ Simplified steps of working of LLMs
 
 -   It learns patterns and relationships within the text data.
 
-**2.Optimizing Model Weights:**
+## **2.Optimizing Model Weights:**
 
 -   LLMs have different \"weights\" for their parameters, which
     determine the importance of various features.
@@ -174,7 +166,7 @@ Simplified steps of working of LLMs
 -   Throughout training, these weights are adjusted to minimize
     mistakes, making the model better at guessing the next word.
 
-**3.Fine-tuning Parameter Values:**
+## **3.Fine-tuning Parameter Values:**
 
 -   LLMs continuously adjust parameter values based on error feedback
     received during predictions.
@@ -182,9 +174,7 @@ Simplified steps of working of LLMs
 -   This iterative process helps them get better at understanding
     language and making accurate guesses about what comes next.
 
-This training process vary based on type of LLM being developed.
-
-Performance of LLM depend on two things.
+This training process vary based on type of LLM being developed. Performance of LLM depend on two things.
 
 1.  **Model Design:** This is all about how the LLM is put together. The
     fancier and more detailed it is, the better it can understand subtle
@@ -197,9 +187,7 @@ Performance of LLM depend on two things.
 Training an LLM takes a lot of computer power. It can take days or even
 weeks, depending on how complex the model is and how much data it\'s
 trained on. Usually, powerful computers and specialized hardware like
-high-performance GPUs are used to speed up the process.
-
-Once trained, LLMs can be customized for different tasks using smaller
+high-performance GPUs are used to speed up the process. Once trained, LLMs can be customized for different tasks using smaller
 sets of supervised data, a process called fine-tuning.
 
 There are three common learning methods:
@@ -214,28 +202,20 @@ There are three common learning methods:
 -   **Domain Adaptation:** This is like few-shot learning, but with more
     data related to a specific application or field.
 
-## **What are LLMs Used for?**
+# **What are LLMs Used for?**
 
 ![alt text](assets/LLM%20use%20cases.png)
 
 Large Language Models (LLMs) have changed how we process and create
-language in the digital age.
-
-Companies like OpenAI have trained these models on vast amounts of data,
-enabling them to understand and interpret human language accurately.
-
-Through Artificial Intelligence and Machine Learning, LLMs can analyze
+language in the digital age. Companies like OpenAI have trained these models on vast amounts of data,
+enabling them to understand and interpret human language accurately. Through Artificial Intelligence and Machine Learning, LLMs can analyze
 and generate language resembling human writing. This advancement has led
 to transformative applications across various fields, including content
 creation, data analysis, and programming.
 
 LLMs are reshaping how we live, work, and communicate by enhancing
-search capabilities and producing high-quality content.
-
-Large Language Models (LLMs) have a wide range of applications in
-various fields.
-
-Some of the real-world use cases of LLM are
+search capabilities and producing high-quality content. Large Language Models (LLMs) have a wide range of applications in
+various fields. Some of the real-world use cases of LLM are
 
 **1.Content Generation:** LLMs are adept at understanding context and
 creating coherent text. This makes them valuable for generating content
@@ -273,13 +253,11 @@ information.
 questions, making summaries, and having conversations. This makes
 learning more efficient and easier for students.
 
-## **LLM Challenges:**
+# **LLM Challenges:**
 
 ![alt text](assets/challenges.png)
 
-The challenges faced by LLM is categorized into different themes.
-
-They are
+The challenges faced by LLM is categorized into different themes. They are
 
 -   **Data Challenges:** These are about the data used for training and
     how the model deals with missing or incomplete data.
@@ -294,7 +272,7 @@ They are
 -   **Deployment Challenges:** This is about getting fully-functional
     LLMs into real-world situations smoothly.
 
-**Data Challenges:**
+## **Data Challenges:**
 
 1.  **Data Bias:** Training data may have biases, leading to unfair
     results.
@@ -305,7 +283,7 @@ They are
 3.  **Dependency on Data Quality:** The quality of training data greatly
     affects LLM performance.
 
-**Ethical and Social Challenges:**
+## **Ethical and Social Challenges:**
 
 1.  **Ethical Concerns:** Concerns regarding the responsible and ethical
     use of language models, especially in sensitive contexts.
@@ -320,7 +298,7 @@ They are
 4.  **User Privacy Concerns:** Generating text from user inputs may pose
     privacy risks, especially with private or sensitive information.
 
-**Technical Challenges:**
+## **Technical Challenges:**
 
 1.  **Computational Resources:** LLMs need lots of computing power for
     training and deployment.
@@ -343,7 +321,7 @@ They are
 7.  **Long-Term Context:** Maintaining coherence over long text or
     discussions is hard.
 
-**Deployment Challenges:**
+## **Deployment Challenges:**
 
 1.  **Scalability:** Make sure that the model can handle more work as
     demand increases.
