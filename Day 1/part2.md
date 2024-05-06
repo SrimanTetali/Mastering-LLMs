@@ -281,43 +281,18 @@ factors.
 
 ![alt text](assets/choosing%20types_domain_task.png)
 
-+-------------------+-------------------------+------------------------+
-| ** Use            | ** Use Domain-Specific  | ** Use RAG When:**     |
-| Domain-Specific   | Fine-Tuning When:**     |                        |
-| Pre-Training      |                         |                        |
-| When:**           |                         |                        |
-+===================+=========================+========================+
-| ** Exclusive      | ** Specialization       | ** Information         |
-| Domain Focus:**   | Needed:** When you      | Freshness Matters:**   |
-|                   | already have a          |                        |
-| When you need a   | pre-trained LLM and     | When you need          |
-| model exclusively | want to adapt it for    | up-to-date,            |
-| trained on data   | specific tasks or       | context-specific data  |
-| from a specific   | within a particular     | from external sources. |
-| domain.           | domain.                 |                        |
-+-------------------+-------------------------+------------------------+
-| ** Customizing    | ** Task Optimization:** | ** Reducing            |
-| Model             |                         | Hallucination is       |
-| Architecture:**   | To adjust the model\'s  | Crucial:** To ground   |
-|                   | parameters related to   | LLMs with verifiable   |
-| To customize      | the task for optimal    | facts and citations    |
-| various aspects   | performance in the      | from an external       |
-| of the model      | chosen domain.          | knowledge base.        |
-| architecture,     |                         |                        |
-| size, tokenizer,  |                         |                        |
-| etc.              |                         |                        |
-+-------------------+-------------------------+------------------------+
-| ** Extensive      | ** Time and Resource    | ** Cost-Efficiency is a|
-| Training Data     | Efficiency:**           | Priority:**            |
-| Available:**      |                         |                        |
-|                   | To save time and        | When avoiding          |
-| When you have a   | computational resources | extensive model        |
-| large amount of   | compared to training a  | training or            |
-| domain-specific   | model from scratch.     | fine-tuning is         |
-| training data     |                         | necessary, and you can |
-| available.        |                         | implement without the  |
-|                   |                         | need for training.     |
-+-------------------+-------------------------+------------------------+
+### When to use Domain Specific Pre Training:
+-	**Exclusive Domain Focus:** When you need a model exclusively trained on data from a specific domain.
+-  **Customizing Model Architecture:** To customize various aspects of the model architecture, size, tokenizer, etc.
+-  **Extensive Training Data Available:** When you have a large amount of domain-specific training data available.
 
-These tables provide a quick reference for deciding when to use each
-approach based on specific requirements and priorities.
+### When to use Domain Specific Fine Tuning
+-	**Specialization Needed:** When you already have a pre-trained LLM and want to adapt it for specific tasks or within a particular domain.
+-	**Task Optimization:** To adjust the model's parameters related to the task for optimal performance in the chosen domain.
+-	**Time and Resource Efficiency:** To save time and computational resources compared to training a model from scratch.
+
+### When to use RAG
+-	**Information Freshness Matters:** When you need up-to-date, context-specific data from external sources.
+-	**Reducing Hallucination is Crucial:** To ground LLMs with verifiable facts and citations from an external knowledge base.
+-	**Cost-Efficiency is a Priority:** When avoiding extensive model training or fine-tuning is necessary, and you can implement without the need for training.
+
