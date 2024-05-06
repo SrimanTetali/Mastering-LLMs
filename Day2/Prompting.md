@@ -362,7 +362,7 @@ more reliable and accurate responses within the CoT framework.
 
 ![alt text](assets/SC.png)
 
-### **ReACT**:
+### **4.ReACT**:
 
 The ReACT framework combines reasoning and action in large language
 models (LLMs) to make them better at dynamic tasks. It works by
