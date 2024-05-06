@@ -277,8 +277,7 @@ factors.
 - ** Complex Setup:** Setting up RAG can be complicated as it involves many different parts like databases and search systems. If any of these parts don\'t work well, RAG might not perform properly.
 - ** Takes Longer to Respond:** Because RAG has to search through databases,it might take more time to come up with an answer compared to models that don\'t need to look outside.
      
-# **Choosing Between RAG, Domain-Specific Fine-Tuning, and Domain-Specific
-Pre-Training**
+# **Choosing Between RAG, Domain-Specific Fine-Tuning, and Domain-Specific Pre-Training **
 
 ![alt text](assets/choosing%20types_domain_task.png)
 
