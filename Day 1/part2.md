@@ -61,7 +61,7 @@ strengths and weaknesses.
 
 Three of these methods are
 
-1.  ## **Domain-Specific Pre-Training:**
+  ## 1. **Domain-Specific Pre-Training:**
 
 -   **Training Duration**: This method involves pre-training Large
     Language Models (LLMs) on extensive datasets, which can take days to
@@ -79,7 +79,7 @@ Three of these methods are
 > work better than general ones in their areas. But sometimes, they can
 > still make mistakes because the topics are so complex.
 
-2.  ## **Domain-Specific Fine-Tuning**:
+  ## 2. **Domain-Specific Fine-Tuning**:
 
 -   **Training Duration**: Fine-tuning typically takes minutes to hours.
 
@@ -93,7 +93,7 @@ Three of these methods are
 > tasks, respectively. It\'s cheaper and faster than training from
 > scratch, so it\'s a smart way to adapt the AI to different tasks.
 
-3.  ## **Retrieval Augmented Generation (RAG)**:
+  ## 3. **Retrieval Augmented Generation (RAG)**:
 
 -   **Training Duration**: No specific training duration is required.
 
@@ -267,47 +267,28 @@ RAG comes with specific advantages and disadvantages. The decision to
 employ or refrain from using RAG depends on an evaluation of these
 factors.
 
-  -----------------------------------------------------------------------
-  **Advantages of RAG**              **Disadvantages of RAG**
-  ---------------------------------- ------------------------------------
-  **Keeps Information Fresh:** RAG   **Complex Setup:** Setting up RAG
-  gets the latest or specific data   can be complicated as it involves
-  from outside sources, making sure  many different parts like databases
-  the AI\'s answers are up-to-date.  and search systems. If any of these
-                                     parts don\'t work well, RAG might
-                                     not perform properly.
+## **Advantages of RAG** 
+- ** Keeps Information Fresh:** RAG gets the latest or specific data from outside sources, making sure the AI\'s answers are up-to-date.
+- ** Adds Domain-Specific Knowledge:** RAG helps the AI by giving it specialized information from a database tailored to a specific field.
+- ** Reduces Mistakes and Shows Sources:** RAG makes it less likely for the AI to make mistakes by giving it reliable facts from external sources. It can also show where the information came from.
+- ** Saves Money:** RAG is a cheaper option because it doesn\'t need as much training or fine-tuning as other methods.
 
-  **Adds Domain-Specific             **Takes Longer to Respond:** Because
-  Knowledge:** RAG helps the AI by   RAG has to search through databases,
-  giving it specialized information  it might take more time to come up
-  from a database tailored to a      with an answer compared to models
-  specific field.                    that don\'t need to look outside.
-
-  **Reduces Mistakes and Shows       \-
-  Sources:** RAG makes it less       
-  likely for the AI to make mistakes 
-  by giving it reliable facts from   
-  external sources. It can also show 
-  where the information came from.   
-
-  **Saves Money:** RAG is a cheaper  
-  option because it doesn\'t need as 
-  much training or fine-tuning as    
-  other methods.                     
-  -----------------------------------------------------------------------
-
+## **Disadvantages of RAG**
+- ** Complex Setup:** Setting up RAG can be complicated as it involves many different parts like databases and search systems. If any of these parts don\'t work well, RAG might not perform properly.
+- ** Takes Longer to Respond:** Because RAG has to search through databases,it might take more time to come up with an answer compared to models that don\'t need to look outside.
+     
 # **Choosing Between RAG, Domain-Specific Fine-Tuning, and Domain-Specific
 Pre-Training**
 
 ![alt text](assets/choosing%20types_domain_task.png)
 
 +-------------------+-------------------------+------------------------+
-| **Use             | **Use Domain-Specific   | **Use RAG When:**      |
+| ** Use            | ** Use Domain-Specific  | ** Use RAG When:**     |
 | Domain-Specific   | Fine-Tuning When:**     |                        |
 | Pre-Training      |                         |                        |
 | When:**           |                         |                        |
 +===================+=========================+========================+
-| **Exclusive       | **Specialization        | **Information          |
+| ** Exclusive      | ** Specialization       | ** Information         |
 | Domain Focus:**   | Needed:** When you      | Freshness Matters:**   |
 |                   | already have a          |                        |
 | When you need a   | pre-trained LLM and     | When you need          |
@@ -316,7 +297,7 @@ Pre-Training**
 | from a specific   | within a particular     | from external sources. |
 | domain.           | domain.                 |                        |
 +-------------------+-------------------------+------------------------+
-| **Customizing     | **Task Optimization:**  | **Reducing             |
+| ** Customizing    | ** Task Optimization:** | ** Reducing            |
 | Model             |                         | Hallucination is       |
 | Architecture:**   | To adjust the model\'s  | Crucial:** To ground   |
 |                   | parameters related to   | LLMs with verifiable   |
@@ -327,7 +308,7 @@ Pre-Training**
 | size, tokenizer,  |                         |                        |
 | etc.              |                         |                        |
 +-------------------+-------------------------+------------------------+
-| **Extensive       | **Time and Resource     | **Cost-Efficiency is a |
+| ** Extensive      | ** Time and Resource    | ** Cost-Efficiency is a|
 | Training Data     | Efficiency:**           | Priority:**            |
 | Available:**      |                         |                        |
 |                   | To save time and        | When avoiding          |
