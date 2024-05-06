@@ -268,16 +268,16 @@ employ or refrain from using RAG depends on an evaluation of these
 factors.
 
 ## **Advantages of RAG** 
-- ** Keeps Information Fresh:** RAG gets the latest or specific data from outside sources, making sure the AI\'s answers are up-to-date.
-- ** Adds Domain-Specific Knowledge:** RAG helps the AI by giving it specialized information from a database tailored to a specific field.
-- ** Reduces Mistakes and Shows Sources:** RAG makes it less likely for the AI to make mistakes by giving it reliable facts from external sources. It can also show where the information came from.
-- ** Saves Money:** RAG is a cheaper option because it doesn\'t need as much training or fine-tuning as other methods.
+- **Keeps Information Fresh:** RAG gets the latest or specific data from outside sources, making sure the AI\'s answers are up-to-date.
+- **Adds Domain-Specific Knowledge:** RAG helps the AI by giving it specialized information from a database tailored to a specific field.
+- **Reduces Mistakes and Shows Sources:** RAG makes it less likely for the AI to make mistakes by giving it reliable facts from external sources. It can also show where the information came from.
+- **Saves Money:** RAG is a cheaper option because it doesn\'t need as much training or fine-tuning as other methods.
 
 ## **Disadvantages of RAG**
-- ** Complex Setup:** Setting up RAG can be complicated as it involves many different parts like databases and search systems. If any of these parts don\'t work well, RAG might not perform properly.
-- ** Takes Longer to Respond:** Because RAG has to search through databases,it might take more time to come up with an answer compared to models that don\'t need to look outside.
+- **Complex Setup:** Setting up RAG can be complicated as it involves many different parts like databases and search systems. If any of these parts don\'t work well, RAG might not perform properly.
+- **Takes Longer to Respond:** Because RAG has to search through databases,it might take more time to come up with an answer compared to models that don\'t need to look outside.
      
-# **Choosing Between RAG, Domain-Specific Fine-Tuning, and Domain-Specific Pre-Training **
+# Choosing Between RAG, Domain-Specific Fine-Tuning, and Domain-Specific Pre-Training 
 
 ![alt text](assets/choosing%20types_domain_task.png)
 
