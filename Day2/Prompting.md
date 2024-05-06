@@ -124,7 +124,9 @@ Here\'s an example prompt for a text classification task:
 **Prompt:**
 
 >Classify the text into neutral, negative or positive.
+
 >Text: I think the food was okay.
+
 >Sentiment:
 
 **Output:**
