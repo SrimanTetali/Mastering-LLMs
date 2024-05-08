@@ -201,7 +201,7 @@ sure it knows about the latest treatments and research findings.
 
 ## **Improving RAG components (Ingestion)**
 
- 1.  **Better Chunking Strategies**: 
+  **1. Better Chunking Strategies**: 
     Chunking is like breaking text into
     smaller pieces to handle it better. In RAG, we want to do this more
     efficiently. Here are some ways we\'re improving chunking:
@@ -218,7 +218,7 @@ sure it knows about the latest treatments and research findings.
     levels, making a sort of hierarchy. It gives more detail and variety
     in text, but it\'s harder to manage.
 
- 2.  **Better Indexing Strategies**: 
+   **2. Better Indexing Strategies**: 
     Indexing is like organizing data so
     we can find things quickly. Here are some ways we\'re improving
     indexing:
@@ -241,15 +241,15 @@ sure it knows about the latest treatments and research findings.
 
 ## **Improving RAG Components (Retrieval)**:
 
- 1.  **Hypothetical Questions and HyDE**:
+1.   **Hypothetical Questions and HyDE**:
 
-    -   **Hypothetical Questions**: This involves making up a question
+-   **Hypothetical Questions:** This involves making up a question
         for each part of a text, turning them into special numbers, and
         searching for them. This makes the search better because these
         questions are more similar to real questions than just using the
         text itself.
 
-    -   **HyDE (Hypothetical Response Extraction)**: Here, we make up a
+-   **HyDE (Hypothetical Response Extraction)**: Here, we make up a
         possible answer for a question, which helps with searching. By
         using the numbers that represent the question and its made-up
         answer, we can find better matches.
